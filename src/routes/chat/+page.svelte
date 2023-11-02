@@ -19,7 +19,7 @@
   });
 </script>
 
-<div class="flex flex-col w-full h-full min-w-screen min-h-screen bg-transparent p-8">
+<div class="flex flex-col w-full h-full min-w-screen min-h-screen bg-lime-950 p-8">
   <div class="mx-auto flex flex-col gap-4 w-full max-w-xl">
     {#each messages as msg}
       <ChatMessage message={msg} />
